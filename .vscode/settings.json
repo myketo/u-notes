@@ -1,0 +1,22 @@
+{
+    "cSpell.words": [
+      "formkit",
+      "Nuxt",
+      "nuxtjs",
+      "pinia",
+      "tailwindcss",
+      "vetur"
+    ],
+    // "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    // "[javascript]": {
+    //   "editor.formatOnSave": true
+    // },
+    // "[vue]": {
+    //     "editor.formatOnSave": true
+    // },
+    "vetur.validation.template": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+}
