@@ -1,4 +1,6 @@
 export default defineNuxtConfig({
+	ssr: false,
+
 	modules: [
 		"@nuxtjs/tailwindcss",
 		"@nuxtjs/color-mode",
@@ -15,5 +17,11 @@ export default defineNuxtConfig({
 
 	devtools: {
 		enabled: true,
+	},
+
+	app: {
+		head: {
+			title: "U-Notes",
+		},
 	},
 });
